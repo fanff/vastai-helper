@@ -20,5 +20,5 @@ Before using Vast-Helper, make sure you have the following prerequisites install
 1. Clone the repository:
 
 ```bash
-pip install https://github.com/your-username/vast-helper.git
+pip install https://github.com/fanff/vastai-helper.git
 ```
