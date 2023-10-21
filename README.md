@@ -12,7 +12,7 @@ Vast-Helper is a Python script designed to automate redundant tasks for Vast.ai 
 
 Before using Vast-Helper, make sure you have the following prerequisites installed:
 
-- Python (3.6+) :snake:
+- Python (3.10+) :snake:
 - Vast.ai CLI (`vastai`) installed and configured. :computer:
 
 ## Installation
@@ -21,4 +21,7 @@ Before using Vast-Helper, make sure you have the following prerequisites install
 
 ```bash
 pip install https://github.com/fanff/vastai-helper.git
+
+pip install https://github.com/fanff/vastai-helper/archive/refs/heads/main.zip
+
 ```
