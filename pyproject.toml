@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "vastai-helper"
+version = "0.1.0"
+description = ""
+authors = ["fanf <fanf@fanf>"]
+readme = "README.md"
+packages = [{include = "vastai_helper"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+vastai = "^0.1.8"
+click = "^8.1.7"
+
+[tool.poetry.scripts]
+vasthelp = 'scan.py'
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
