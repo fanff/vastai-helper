@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "vastai-helper"
-version = "0.1.1"
+version = "0.1.2"
 description = ""
 authors = ["fanf <fanf@fanf>"]
 readme = "README.md"
@@ -11,9 +11,14 @@ packages = [{include = "vastai_helper", from = "src"}]
 python = "^3.10"
 vastai = "^0.1.8"
 click = "^8.1.7"
+prettytable = "^3.9.0"
 
 [tool.poetry.scripts]
 vasthelp = 'vastai_helper.scan:cli'
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.10.1"
+isort = "^5.12.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
